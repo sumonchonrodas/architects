@@ -1,0 +1,100 @@
+/* common style  */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+section{
+    margin-bottom: 114px;
+}
+
+.primary-btn {
+    margin-bottom: 50px;
+    padding: 20px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 5px;
+
+}
+
+body {
+    background-color: rgba(255, 144, 14, 0.1);
+
+
+}
+
+/* common style  */
+/* header style start */
+header {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.header nav ul li {
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* header style end */
+/* Brand New Group of Architects  start*/
+.brand-new {
+    border: 1px solid red;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.brand-new-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 10px;
+
+}
+
+.brand-new-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.imgae-part {
+    margin: 0 auto;
+    border: 1px solid red;
+    width: 1000px;
+}
+
+.imgae-part img {
+    background-color: aqua;
+    width: 100%;
+}
+
+/* Brand New Group of Architects  end*/
