@@ -130,6 +130,7 @@ nav {
     font-size: 16px;
     color: #727272;
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .quick {
@@ -247,17 +248,18 @@ nav {
     text-align: center;
     padding: 50px;
     transition: transform 1s ease;
-    
+
 
 }
-.boxes-words:hover{
+
+.boxes-words:hover {
     border: 1px solid gold;
     border-radius: 5px;
     text-align: center;
     padding: 50px;
     transform: rotate(180deg);
     background-color: rgba(128, 128, 128, 0.467);
-    
+
 }
 
 .award {
@@ -296,7 +298,6 @@ nav {
 
 }
 
-.bosex-name {}
 
 .bosex-name img {
     width: 100px;
@@ -308,11 +309,13 @@ footer {
     margin: 0 150px 150px 100px;
 
 }
+
 /* oftional sign her  */
-.sign-here{
+.sign-here {
     text-align: center;
     margin: 50px 0;
 }
+
 /* oftional sign her  */
 
 .footer-title {
@@ -324,7 +327,8 @@ footer {
     color: #424242;
 
 }
-.sing-in-btn{
+
+.sing-in-btn {
     padding: 10px;
     border: none;
     background-color: rgb(237, 173, 9);
@@ -332,12 +336,100 @@ footer {
     width: 300px;
     border-radius: 10px;
 }
-.sign-title{
+
+.sign-title {
     text-decoration: none;
     color: skyblue;
 }
-hr{
+
+hr {
     color: rgba(172, 166, 166, 0.666);
     margin-bottom: 10px;
+
+}
+
+/* media query style  */
+@media only screen and (max-width:576px) {
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .brand-new {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .brand-new-title {
+        font-size: 2rem;
+    }
+
     
+
+    .primary-btn {
+        width: 30%
+    }
+    .imgae-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgae-part img {
+        width: 100%;
+        padding:0;
+    }
+/* here is container part  */
+    .container{
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin: 0px;
+    }
+    .container-right{
+        width: 480px;
+    }
+    .container-right-title{
+        font-size: 1.5rem;
+    }
+    .container-right-description{
+        font-size:.80em;
+        width: 100%;
+    }
+/* container part end */
+/* Fetures part */
+.fetures{
+    flex-direction: column;
+    padding:0px;
+    margin:0px;
+}
+.fetures-img{
+    width: 100%;
+    height: 100%;
+}
+.right-fetures {
+    position: relative;
+    width:100%;
+}
+
+.left-fetures {
+    width: 100%;
+}
+.year{
+    height:30px;
+    width: 200px;
+}
+/* fetures part end */
+    .fact,
+    .sponser,
+    .sign-here,
+    footer,
+    hr {
+        display: none;
+
+    }
 }
