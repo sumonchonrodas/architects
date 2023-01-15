@@ -66,7 +66,6 @@ nav {
 /* header style end */
 /* Brand New Group of Architects  start*/
 .brand-new {
-    border: 1px solid red;
     width: 600px;
     text-align: center;
     margin: 0 auto;
@@ -89,7 +88,6 @@ nav {
 
 .imgae-part {
     margin: 0 auto;
-    border: 1px solid red;
     width: 100%
 }
 
@@ -147,11 +145,13 @@ nav {
 /* Quick list of Our Features end  */
 
 /* Features you will love & enjoy */
-.fetures{
+.fetures {
     display: flex;
     padding: 0 100px;
     gap: 50px;
+    margin-bottom: 100px;
 }
+
 .fetures-title {
     border-left: 5px solid #FF900E;
     font-weight: 700;
@@ -170,15 +170,18 @@ nav {
     font-weight: 600;
     font-size: 20px;
 }
-.right-fetures{
+
+.right-fetures {
     position: relative;
     width: 60%;
 }
-.left-fetures{
+
+.left-fetures {
     width: 40%;
 }
-.fetures-img{
-    width:675px;
+
+.fetures-img {
+    width: 675px;
     height: 800px;
 }
 
@@ -188,12 +191,12 @@ nav {
     width: 342px;
     height: 200px;
     position: absolute;
-    
+
     left: 20px;
     top: 600px;
-    
 
-    
+
+
 
 }
 
@@ -201,15 +204,129 @@ nav {
     font-weight: 700;
     font-size: 65px;
     color: #FFFFFF;
-    padding:30px 30px 0 30px;
+    padding: 30px 30px 0 30px;
 }
 
 .year-sub {
     font-weight: 500;
     font-size: 25px;
-    padding:0px 0px 0 80px;
+    padding: 0px 0px 0 80px;
     color: #FFFFFF;
 }
 
-
 /* Features you will love & enjoy */
+/* Some Facts  */
+
+.fact {
+    margin: 0 100px 100px 100px;
+
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 70px;
+
+}
+
+.fact-boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.boxes-words {
+    border: 1px solid gold;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.award {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* Some Facts  end*/
+
+/* Our Sponspors  */
+.sponser {
+    margin: 0 150px 150px 100px;
+}
+
+.sponser-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.sponser-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sites-box {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.bosex-name {}
+
+.bosex-name img {
+    width: 100px;
+}
+
+/* Our Sponspors end */
+/* last part  */
+footer {
+    margin: 0 150px 150px 100px;
+
+}
+/* oftional sign her  */
+.sign-here{
+    text-align: center;
+    margin: 50px 0;
+}
+/* oftional sign her  */
+
+.footer-title {
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+}
+.sing-in-btn{
+    padding: 10px;
+    border: none;
+    background-color: rgb(237, 173, 9);
+    margin: 20px 0;
+    width: 300px;
+    border-radius: 10px;
+}
+.sign-title{
+    text-decoration: none;
+    color: skyblue;
+}
+hr{
+    color: rgba(172, 166, 166, 0.666);
+    margin-bottom: 10px;
+    
+}
