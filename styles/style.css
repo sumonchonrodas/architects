@@ -246,7 +246,18 @@ nav {
     border-radius: 5px;
     text-align: center;
     padding: 50px;
+    transition: transform 1s ease;
+    
 
+}
+.boxes-words:hover{
+    border: 1px solid gold;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    transform: rotate(180deg);
+    background-color: rgba(128, 128, 128, 0.467);
+    
 }
 
 .award {
