@@ -7,8 +7,9 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-section{
-    margin-bottom: 114px;
+
+.bg-container {
+    background-color: white;
 }
 
 .primary-btn {
@@ -21,11 +22,11 @@ section{
 
 }
 
-body {
+/* body {
     background-color: rgba(255, 144, 14, 0.1);
 
 
-}
+} */
 
 /* common style  */
 /* header style start */
@@ -89,12 +90,126 @@ nav {
 .imgae-part {
     margin: 0 auto;
     border: 1px solid red;
-    width: 1000px;
+    width: 100%
 }
 
 .imgae-part img {
-    background-color: aqua;
     width: 100%;
+    padding: 0 150px;
 }
 
 /* Brand New Group of Architects  end*/
+/* Quick list of Our Features  */
+.container {
+    margin: 130px 200px;
+    display: flex;
+    gap: 73px;
+}
+
+.container-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.container-left img {
+    width: 100%
+}
+
+.container-right {
+    width: 700px;
+    /* padding-top: 50px; */
+}
+
+.container-right-title {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.container-right-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+
+.quick {
+    color: #727272;
+
+}
+
+.features-color {
+    color: #FF900E;
+
+}
+
+/* Quick list of Our Features end  */
+
+/* Features you will love & enjoy */
+.fetures{
+    display: flex;
+    padding: 0 100px;
+    gap: 50px;
+}
+.fetures-title {
+    border-left: 5px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.fetures-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 40px;
+}
+
+.fetures-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+.right-fetures{
+    position: relative;
+    width: 60%;
+}
+.left-fetures{
+    width: 40%;
+}
+.fetures-img{
+    width:675px;
+    height: 800px;
+}
+
+.year {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 342px;
+    height: 200px;
+    position: absolute;
+    
+    left: 20px;
+    top: 600px;
+    
+
+    
+
+}
+
+.year-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding:30px 30px 0 30px;
+}
+
+.year-sub {
+    font-weight: 500;
+    font-size: 25px;
+    padding:0px 0px 0 80px;
+    color: #FFFFFF;
+}
+
+
+/* Features you will love & enjoy */
